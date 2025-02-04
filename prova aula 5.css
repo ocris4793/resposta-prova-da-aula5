@@ -1,0 +1,27 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    gap: 20px;
+    min-height: 200px;
+    width: 500px;
+}
+
+.item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    border: 2px solid black;
+    height: 50px;
+    width: 50px;
+}
